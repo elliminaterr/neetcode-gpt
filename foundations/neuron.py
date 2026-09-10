@@ -11,10 +11,9 @@ class Solution:
         #
         z = np.dot(x,w) + b
         if activation == "sigmoid":
-            z = 1 / (1 + np.exp(-z))
+            return round(1 / (1 + np.exp(-z)),5)
         elif activation == "relu":
-            z = max(0.0,z)
+            return round(max(0.0,z),5)
         # Pre-activation: z = dot(x, w) + b
         # Sigmoid: σ(z) = 1 / (1 + exp(-z))
         # ReLU: max(0, z)
-        return round(z, 5)
