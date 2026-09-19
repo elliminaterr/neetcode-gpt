@@ -1,4 +1,4 @@
-# My GPT — Built from Scratch
+# My GPT - Built from Scratch
 
 > Assembled from the NeetCode ML course on [NeetCode.io](https://neetcode.io)
 > Built by **Atiksh Agnihotri** on September 5, 2026
